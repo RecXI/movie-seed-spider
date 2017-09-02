@@ -2,6 +2,7 @@
 __author__ = 'RecXI'
 
 from seedSpider.movie import Movie
+import os
 import re
 import sys
 import operator
@@ -13,6 +14,7 @@ from logging import debug
 logging.basicConfig(level=logging.INFO)
 import time
 import threading
+
 
 
 def seed_spider(category):
@@ -81,3 +83,5 @@ def main(categories):
     for t in thread_list:
         t.join()
     print("全部爬取结束，快去收割种子吧！")
+    # 脚本运行结束时，弹出文本文件以提示
+    os.system(".\end.txt")
