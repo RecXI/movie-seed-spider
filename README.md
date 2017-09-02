@@ -19,6 +19,9 @@
 
 ![screeshots_3](https://github.com/RecXI/movie-seed-spider/blob/master/screenshots/3.png)
 
+5. 爬取需要花费一定时间，但是爬取结束时会自动弹出文本文件提示结束。所以爬取过程可以尽情去做其他事情，不用随时查看脚本运行情况
+![screeshots_4](https://github.com/RecXI/movie-seed-spider/blob/master/screenshots/4.png)
+
 ## 使用方法
 保持源码目录结构，打开命令行终端，cd到main.py所在目录，然后键入命令：
 
@@ -26,4 +29,4 @@
 
 根据字符信息提示，输入你想要爬取的类型，并以空格隔开。
 
-爬取需要花费一定时间，爬取结束后命令行终端会有字符提示,之后便可以查阅在目录下生成的HTML文件。
+爬取结束后会自动弹出文本文件提示结束,之后便可以查阅在目录下生成的HTML文件。
